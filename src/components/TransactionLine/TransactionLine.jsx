@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
+import css from './TransactionLine.module.css';
+
 function TransactionLine(props) {
     const { id, type, amount, currency } = props;
-    return <tr key={id} >
+    return <tr className={css.transaction} key={id} >
         <td>{type}</td>
         <td>{amount}</td>
         <td>{currency}</td>

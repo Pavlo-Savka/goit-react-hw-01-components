@@ -1,7 +1,8 @@
-import Friends from './Friends';
-import friends from '../database/friends.json';
+import Friends from '../Friends/Friends.jsx';
+import friends from '../../database/friends.json';
+import css from './FriendList.module.css';
 function FriendList() {
-        return <ul className = "friend-list" >
+        return <ul className={css["friend-list"]} >
             {friends.map(i => (
                     <Friends
           key={i.id}

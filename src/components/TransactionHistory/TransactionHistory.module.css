@@ -1,0 +1,9 @@
+.transaction-history {
+    margin: 0 auto;
+}
+.thead {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    width: 300px;
+    text-align: center;
+}

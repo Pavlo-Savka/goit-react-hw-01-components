@@ -1,0 +1,28 @@
+.statistics {
+    margin: 0 auto;
+    width: 400px;
+
+}
+.title {
+    text-align: center;
+}
+.stat-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    background-color: darkgrey;
+
+}
+.item {
+    margin: 0 auto;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    width: calc(100% / 4);
+    background-color: darkgrey;
+     border-color: dimgray;
+}
+.item span {
+    text-align: center;
+}

@@ -1,9 +1,10 @@
-import TransactionLine from './TransactionLine'
-import transactions from '../database/transactions.json';
+import TransactionLine from '../TransactionLine/TransactionLine'
+import transactions from '../../database/transactions.json';
+import css from './TransactionHistory.module.css';
 
 function TransactionHistory() {
-   return  <table className="transaction-history">
-        <thead>
+    return <table className={css["transaction-history"]}>
+        <thead className={css.thead}>
              <tr>
                 <th>Type</th>
                 <th>Amount</th>
