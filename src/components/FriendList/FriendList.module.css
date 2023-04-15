@@ -5,3 +5,15 @@
     margin: 10 auto;
     gap: 10px;
 }
+.item {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid grey;
+    box-shadow: 10px 5px 5px grey;
+    gap: 10px;
+    margin: 0 auto;
+}
+

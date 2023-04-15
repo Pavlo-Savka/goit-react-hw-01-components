@@ -1,27 +1,18 @@
-.item {
-    display: flex;
-    width: 200px;
-    align-items: center;
-    padding: 5px;
-    text-decoration: none;
-    border: 1px solid grey;
-    box-shadow: 10px 5px 5px grey;
-    gap: 10px;
-    margin: 0 auto;
-}
 .name {
     font-size: 22px;
     font-weight: 700;
 }
+
 .status {
     width: 20px;
     height: 20px;
-   border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .status--online {
     background-color: green;
 }
+
 .status--offline {
     background-color: red;
 }

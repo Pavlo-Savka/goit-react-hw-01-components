@@ -1,6 +1,6 @@
 import TransactionLine from '../TransactionLine/TransactionLine'
-import transactions from '../../database/transactions.json';
 import css from './TransactionHistory.module.css';
+import transactions from '../../database/transactions.json';
 
 function TransactionHistory() {
     return <table className={css["transaction-history"]}>
@@ -12,13 +12,14 @@ function TransactionHistory() {
             </tr>
          </thead>
         <tbody>
-             {transactions.map(i => (
+            {transactions.map(i => (
+                 <tr className={css.transaction} key={i.id} >
                  <TransactionLine
-          key={i.id}
           type={i.type }
           amount={i.amount }
           currency={i.currency }                 
                      />    
+        </tr>
              ))}
         </tbody>    
     </table>

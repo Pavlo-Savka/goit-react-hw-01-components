@@ -7,3 +7,9 @@
     width: 300px;
     text-align: center;
 }
+.transaction {
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid gainsboro;
+}
